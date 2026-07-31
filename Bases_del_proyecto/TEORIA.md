@@ -37,7 +37,7 @@ Para automatizar la supervisión del estado del biorreactor, nuestra PCB embebid
 * **Humedad Interna de la Materia Orgánica (`Hum_Tierra_Pct`):**
   * *Por qué se escogió:* La actividad microbiana requiere un rango hídrico óptimo (típicamente entre $50\%$ y $80\%$). Una paca muy seca detiene el proceso biológico; una paca excesivamente inundada ahoga a los microorganismos por falta de oxígeno.
 * **Temperatura y Humedad Ambiental (`Temp_Amb_C` / `Hum_Amb_Pct`):**
-  * *Por qué se escogió:* Funcionan como variables de calibración y contexto. Permiten aislar el impacto del clima exterior (como frentes de frío o lluvias) sobre las fluctuaciones térmicas superficiales del núcleo de la paca.
+  * *Por qué se escogió:* Funcionan como variables de calibración y contexto. Permiten aislarhttps://minas.medellin.unal.edu.co/noticias/5036-pacas-biodigestoras-una- el impacto del clima exterior (como frentes de frío o lluvias) sobre las fluctuaciones térmicas superficiales del núcleo de la paca.
 
 
 ---
@@ -62,4 +62,4 @@ Para llevar estas variables físicas al dominio digital con alta fiabilidad, se 
 <img width="554" height="554" alt="image" src="https://github.com/user-attachments/assets/70c907b8-d6b0-4eb3-a86f-c5344eef17c3" />
 
 Referencias extra: (https://minas.medellin.unal.edu.co/noticias/5036-pacas-biodigestoras-una-)
-                   (./Bases_del_proyecto/Cartilla-pacas-digestoras-Silva.pdf)
+                  [artìculo unal](./Bases_del_proyecto/Cartilla-pacas-digestoras-Silva.pdf)
