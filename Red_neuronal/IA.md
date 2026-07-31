@@ -131,8 +131,7 @@ El notebook lee el CSV con las lecturas de los sensores, pero antes de dejar que
 binario es más robusto porque ataca la causa real (bytes nulos por los cortes de
 luz) en vez de solo "tapar" el síntoma.
 
-<img width="1289" height="490" alt="datos procesados" src="https://github.com/user-attachments/assets/5ebbdb45-301c-4f12-adc1-78ebad4e2007" />
-  
+
 ---
 
 ## 5. Paso 2: Etiquetar el estado biológico (porque el CSV no lo trae)
@@ -158,6 +157,8 @@ umbrales (45 °C y la pendiente de enfriamiento) no son universales: hay que
 ajustarlos según lo que se observe en los datos reales de cada paca, y eso es
 justamente lo que se documenta como decisión de diseño para poder explicarla.
 
+<img width="1289" height="490" alt="datos procesados" src="https://github.com/user-attachments/assets/5ebbdb45-301c-4f12-adc1-78ebad4e2007" />
+  
 ---
 
 ## 6. Paso 3: Preparar los datos para entrenar (split y normalización)
