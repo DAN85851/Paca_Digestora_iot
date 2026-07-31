@@ -23,11 +23,3 @@ Los objetivos principales de su diseño físico y electrónico son dos:
 
 ---
 
-## 📂 Archivos de Hardware en este Directorio
-En esta carpeta encontrarás los archivos fuente del diseño electrónico para su revisión o fabricación:
-* `*.kicad_sch`: Esquemáticos de las versiones de la placa.
-* `*.kicad_pcb`: Layouts de circuitos impresos.
-* `gerbers/`: Archivos de manufactura para envío a producción (PCBway, JLCPCB, etc.).
-* `renders/`: Vistas 3D de la tarjeta ensamblada.
-
-> *Nota: Para ver los esquemáticos directamente en la web sin instalar KiCad, puedes revisar las capturas exportadas en la carpeta de [Documentación Técnica](../docs/).*
