@@ -62,4 +62,4 @@ Para llevar estas variables físicas al dominio digital con alta fiabilidad, se 
 <img width="554" height="554" alt="image" src="https://github.com/user-attachments/assets/70c907b8-d6b0-4eb3-a86f-c5344eef17c3" />
 
 Referencias extra: (https://minas.medellin.unal.edu.co/noticias/5036-pacas-biodigestoras-una-)
-                   (./Paca_Digestora_iot/Cartilla-pacas-digestoras-Silva.pdf)
+                   (./Bases_del_proyecto/Cartilla-pacas-digestoras-Silva.pdf)
