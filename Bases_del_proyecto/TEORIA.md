@@ -61,5 +61,6 @@ Para llevar estas variables físicas al dominio digital con alta fiabilidad, se 
   * **Estrategia de Protección Eléctrica contra Electrólisis y Oxidación:** Dado que la materia orgánica húmeda y rica en sales genera un entorno altamente corrosivo propicio para la corrosión electroquímica y la oxidación acelerada, **los sensores enterrados en la paca se alimentaron mediante estrategias de conmutación de energía por ciclos (pulsos de excitación)**. En lugar de mantenerlos energizados de manera continua (lo que polariza los electrodos y oxida el cobre o destruye el circuito por electrólisis en pocos días), el firmware activa la alimentación del sensor únicamente durante los milisegundos necesarios para realizar la lectura analógica, apagándolos el resto del tiempo. Esto prolonga drásticamente su vida útil operativa en campo.
 <img width="554" height="554" alt="image" src="https://github.com/user-attachments/assets/70c907b8-d6b0-4eb3-a86f-c5344eef17c3" />
 
-Referencias extra: (https://minas.medellin.unal.edu.co/noticias/5036-pacas-biodigestoras-una-) \
-                  [artìculo unal](./Bases_del_proyecto/Cartilla-pacas-digestoras-Silva.pdf)
+## 📚 Referencias y Documentación de Apoyo
+* **Cartilla Oficial:** Puedes consultar las bases teóricas detalladas en la [Cartilla de Pacas Digestoras de Silva](./Bases_del_proyecto/Cartilla-pacas-digestoras-Silva.pdf).\
+Referencias extra: artìculo unal](./Bases_del_proyecto/Cartilla-pacas-digestoras-Silva.pdf)
