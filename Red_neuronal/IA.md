@@ -47,7 +47,7 @@ las mismas cuentas que ya se explican en la sección 8.
 
 ---
 
-## 3. Diccionario de términos (explicados en criollo)
+## 3. Diccionario de términos 
 
 - **Red neuronal**: un conjunto de "neuronas" organizadas en capas, que
   transforman números de entrada en una predicción de salida. En este proyecto,
@@ -112,6 +112,9 @@ las mismas cuentas que ya se explican en la sección 8.
 El notebook lee el CSV con las lecturas de los sensores, pero antes de dejar que
 `pandas` lo interprete, hace una limpieza especial:
 
+<img width="1289" height="690" alt="datos" src="https://github.com/user-attachments/assets/04545fc5-7576-44fb-8535-a917a7a4c3f7" />
+
+
 - Los datos vienen de la BeagleBone Black, y hubo **cortes de energía
   (brownouts)** durante el registro. Eso corrompió algunas filas con bytes nulos
   mezclados en el texto. Por eso primero se lee el archivo en binario y se quitan
@@ -128,6 +131,8 @@ El notebook lee el CSV con las lecturas de los sensores, pero antes de dejar que
 binario es más robusto porque ataca la causa real (bytes nulos por los cortes de
 luz) en vez de solo "tapar" el síntoma.
 
+<img width="1289" height="490" alt="datos procesados" src="https://github.com/user-attachments/assets/5ebbdb45-301c-4f12-adc1-78ebad4e2007" />
+  
 ---
 
 ## 5. Paso 2: Etiquetar el estado biológico (porque el CSV no lo trae)
@@ -248,6 +253,10 @@ Con la arquitectura ganadora se generan:
 
 ---
 
+
+<img width="587" height="455" alt="aciertos" src="https://github.com/user-attachments/assets/572c6eac-f0ea-4e1c-bbc0-926438b4ee31" />
+
+
 ## 9. Paso 6: Exportar los pesos para correr en la BeagleBone Black, sin TensorFlow
 
 Aquí está la parte de "qué son los pesos que elegí" en concreto. Una red de este
@@ -280,6 +289,8 @@ prueba y verifica que coincidan exactamente antes de dar por bueno el modelo
 para subirlo a la BBB.
 
 ---
+<img width="1189" height="390" alt="finales" src="https://github.com/user-attachments/assets/030ec092-5347-435f-bcdf-d0e257ed5d6c" />
+
 
 ## 10. Resumen del flujo completo
 
