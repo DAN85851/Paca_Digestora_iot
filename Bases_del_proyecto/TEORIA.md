@@ -1,5 +1,3 @@
-<img width="387" height="516" alt="image" src="https://github.com/user-attachments/assets/95b2837b-65b2-45f7-9704-90bb1dd13736" /># Fundamentos Teóricos y Biológicos: Pacas Digestoras
-
 ## 🌿 ¿Qué es una Paca Digestora?
 Una paca digestora (o biorreactor orgánico artesanal) es un sistema diseñado para la gestión y descomposición acelerada de residuos orgánicos urbanos (restos de cocina, hojas, poda, etc.) mediante prensado y compactación aeróbico-anaeróbica estructurada. Su objetivo principal es transformar los residuos en abono (o digestato estabilizado) de forma limpia, sin malos olores y evitando la atracción de vectores.
 
@@ -62,3 +60,6 @@ Para llevar estas variables físicas al dominio digital con alta fiabilidad, se 
   * **Por qué se escogió:** A diferencia de los sensores resistivos tradicionales, los sensores capacitivos miden la permitividad dieléctrica del medio circundante sin exposición galvánica directa del metal al electrolito orgánico.
   * **Estrategia de Protección Eléctrica contra Electrólisis y Oxidación:** Dado que la materia orgánica húmeda y rica en sales genera un entorno altamente corrosivo propicio para la corrosión electroquímica y la oxidación acelerada, **los sensores enterrados en la paca se alimentaron mediante estrategias de conmutación de energía por ciclos (pulsos de excitación)**. En lugar de mantenerlos energizados de manera continua (lo que polariza los electrodos y oxida el cobre o destruye el circuito por electrólisis en pocos días), el firmware activa la alimentación del sensor únicamente durante los milisegundos necesarios para realizar la lectura analógica, apagándolos el resto del tiempo. Esto prolonga drásticamente su vida útil operativa en campo.
 <img width="554" height="554" alt="image" src="https://github.com/user-attachments/assets/70c907b8-d6b0-4eb3-a86f-c5344eef17c3" />
+
+Referencias extra: (https://minas.medellin.unal.edu.co/noticias/5036-pacas-biodigestoras-una-)
+                   (./Paca_Digestora_iot/Cartilla-pacas-digestoras-Silva.pdf)
